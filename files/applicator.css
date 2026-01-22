@@ -1,0 +1,1766 @@
+/* ------------------ Visually Hidden ------------------ */
+.visually-hidden,
+.edit-post-action .post-title---txt,
+.edit-comment-action .comment-title---txt,
+.post-header-aside .comment-creation,
+.post-header-aside .comments--empty .comments--populated,
+.post-header-aside .comments-actions-snippet.comments--empty.comment-creation--disabled,
+.post-header-aside .comments-actions-snippet.comments--empty,
+.comments-header-aside .comments-actions-snippet.comments--empty.comment-creation--disabled .comments-population,
+.comments--empty.comment-creation--disabled .comments-toggle,
+.comments--empty .comments-empty-note,
+.comment-creation-glabel,
+.comment-form .open-parenthesis---txt,
+.comment-form .close-parenthesis---txt,
+.comments-heading,
+.comment-title,
+.comment-reply-axn .to---txt,
+.comment-reply-axn .comment---txt,
+#cancel-comment-reply-link .to---txt,
+#cancel-comment-reply-link .comment---txt,
+.logged-in .commenter-comment-creation-flabel,
+.comments---hr .comments-nav,
+.site--root .site-main-info,
+.page-template--multisite-directory .post-banner-visual img,
+.page-template--multisite-directory .entry-content,
+
+.applicator--theme--post-meta .post-published-glabel,
+.applicator--theme--post-meta .post-modified-glabel,
+.applicator--theme--post-meta .post-published-time-stamp-dtstamp,
+.applicator--theme--post-meta .post-modified-time-stamp-dtstamp,
+.applicator--theme--post-meta .post-meta .comma---sep,
+.applicator--theme--post-meta .post-modified,
+.applicator--theme--post-meta .post-published-by-glabel,
+.applicator--theme--post-meta .post-modified-by-glabel,
+
+.applicator--theme--categories .post-categories-glabel,
+.applicator--theme--tags .post-tags-glabel,
+.applicator--theme--entry-nav .entry-navi .colon---sep,
+.applicator--theme--entry-nav .entry-navi .entry---txt,
+.applicator--theme--comment-meta .published-comment-glabel,
+.applicator--theme--comment-meta .comment-published-time-stamp-dtstamp,
+.applicator--theme--comment-meta .published-commenter-glabel,
+.applicator--theme--comment-meta .comment-meta .comma---sep,
+.applicator--theme--private-post-title .post-title---l .colon---sep,
+.applicator--theme--excerpt .show-more-action .property---line .of---txt,
+.applicator--theme--excerpt .show-more-action .value---line,
+.applicator--theme--page-nav .page-nav .ellipsis--delimiter,
+.applicator--theme--post-format--status .format-status .published-post-author,
+
+.applicator--theme--post-format--status .blog .format-status .post-title,
+.applicator--theme--post-format--status .single .format-status .post-title,
+.applicator--theme--post-format--status .format-status .apl-post-categories
+{
+    position:absolute;margin:-1px;padding:0;width:1px;min-width:auto;height:1px;min-height:auto;overflow:hidden;clip:rect(0,0,0,0);border:0;word-wrap:normal;
+}
+
+
+
+
+
+/* ------------------ Clearfix ------------------ */
+.clearfix:before,
+.clearfix:after,
+.page-nav---grp:before,
+.page-nav---grp:after
+{
+    content: " ";
+    display: table;
+}
+
+.clearfix:after,
+.page-nav---grp:after
+{
+    clear: both;
+}
+
+
+
+
+
+/* ------------------ Unlist ------------------ */
+.unlist,
+.applicator--theme--categories .post-categories,
+.applicator--theme--tags .post-tags---grp
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* ------------------ Active Area (AA) ------------------ */
+.active-area,
+.applicator--theme--categories .apl-categories a,
+.applicator--theme--tags .apl-tags a,
+.applicator--theme--comments-count-action .comments-count---txt
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    min-width: 3rem;
+    min-height: 3rem;
+}
+
+
+
+
+
+/* ------------------ Main Heading ------------------ */
+.main-content-heading .value---line
+{
+    font-weight: normal;
+}
+
+
+
+
+
+/* ------------------ Headings ------------------ */
+h5
+{
+    font-weight: normal;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+h6
+{
+    font-weight: normal;
+    font-size: .875rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* ------------------ Post ------------------ */
+.post a
+{
+    text-decoration: none;
+}
+
+.post a:hover
+{
+    text-decoration: underline;
+}
+
+.post-title---a
+{
+    color: #262626;
+}
+
+
+
+
+/* ------------------ Comments ------------------ */
+.comments a
+{
+    text-decoration: none;
+}
+
+.comments a:hover
+{
+    text-decoration: underline;
+}
+
+.comments-header-aside .comments-actions-snippet .comments-count-axn---a
+{
+    color: #262626;
+}
+
+.comments-header-aside .comments-actions-snippet .comments-count-axn---a:hover{
+    text-decoration: none;
+}
+
+.comments-header-aside .comments-actions-snippet .comments-count-axn---a .comments-label---txt
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.optional---txt
+{
+    color: gray;
+    font-size: .75rem;
+    text-transform: capitalize;
+}
+
+.commenter-url-creation-flabel .optional---txt
+{
+    margin-left: .5rem;
+}
+
+.comment-form .creation--invalid .input-text
+{
+    border-color: hsl(0, 100%, 45%);
+    border-width: .125em;
+}
+
+.comment-form .creation--valid .input-text
+{
+    border-color: hsl(120, 82%, 44%);
+}
+
+.comment-title,
+.edit-comment-action
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.comments-header-aside---cr
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.signed-in-acct---cr
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.signed-in-acct---hr
+{
+    flex: 1 100%;
+}
+
+.signed-in-account a
+{
+    text-decoration: none;
+}
+
+.signed-in-account a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ------------ Widgets ------------ */
+.widget a
+{
+    text-decoration: none;
+}
+
+.widget a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* ------------------ Copyright ------------------ */
+.copyright
+{
+    background-color: white;
+    
+    color: #505050
+}
+
+.copyright .wbp-name---txt
+{
+    font-weight: bold;
+}
+
+.copyright a
+{
+    color: inherit;
+    
+    text-decoration: none;
+}
+
+.copyright a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ------------------ Multisite Directory - Site ------------------ */
+.site-preview---cr
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.site--root .site-preview---cr
+{
+    padding: 0;
+}
+
+.site-preview a
+{
+    color: hsl(215, 100%, 45%);
+}
+
+.site-preview .site-main-name---a
+{
+    color: #262626;
+    
+    text-decoration: none;
+}
+
+.site-preview .site-main-desc---a
+{
+    color: hsla(0, 0%, 0%, .5);
+    
+    text-decoration: none;
+}
+
+.site-main-name
+{
+    padding: 1rem;
+    
+    text-align: center;
+}
+
+.site-main-description
+{
+    margin-top: calc( ( 1rem * 3) * -1 ) ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    font-size: .875em;
+    
+    text-align: center;
+}
+
+.site-preview .post-title---h
+{
+    font-size: 1.5rem;
+}
+
+.site-preview .main-banner
+{
+    display: none;
+}
+
+
+
+
+
+/* ------------------ Multisite Directory - Post Banner Visual ------------------ */
+.page-template--multisite-directory .post-banner-visual
+{
+    position: relative;
+    z-index: -1;
+}
+
+.page-template--multisite-directory .post-banner-visual--enabled .post---hr_cr
+{
+    position: relative;
+}
+
+.page-template--multisite-directory .post-banner-vis---a_l
+{
+    background-size: cover;
+    background-position: center;
+    
+    background-color: hsla(0, 0%, 0%, .85);
+}
+
+.page-template--multisite-directory .post .post-banner-vis---a
+{
+    position: relative;
+    
+    display: block;
+    width: 100%;
+    height: 10rem;
+}
+
+.page-template--multisite-directory .post-banner-vis---a::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+100&0.5+0,1+50,0.5+100 */
+    background: -moz-linear-gradient(top, hsla(0,0%,0%,0.5) 0%, hsla(0,0%,0%,1) 50%, hsla(0,0%,0%,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, hsla(0,0%,0%,0.5) 0%,hsla(0,0%,0%,1) 50%,hsla(0,0%,0%,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, hsla(0,0%,0%,0.5) 0%,hsla(0,0%,0%,1) 50%,hsla(0,0%,0%,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+    
+    opacity: .5;
+}
+
+
+
+
+
+/* ------------------ Multisite Directory - Main Post Title ------------------ */
+.page-template--multisite-directory .main-post-title---ct_cr
+{
+    text-align: center;
+}
+
+.page-template--multisite-directory .post-banner-visual--enabled .post-title
+{
+    display: block;
+    padding: 0;
+}
+
+.page-template--multisite-directory .post-banner-visual--enabled .post-title---a
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    overflow: hidden;
+}
+
+.page-template--multisite-directory .post-banner-visual--enabled .post-title---a_l
+{   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50% );
+    
+    padding: .75em 1rem;
+    
+    width: 100%;
+    
+    color: white;
+}
+
+.page-template--multisite-directory .post-title---a
+{
+    text-decoration: none;
+}
+
+.page-template--multisite-directory .post-banner-visual--enabled .post-title---a_l
+{
+    display: flex;
+}
+
+
+
+
+
+/* ------------------ Multisite Directory - Post ------------------ */
+.page-template--multisite-directory .post---cr
+{
+    padding: 0;
+}
+
+.page-template--multisite-directory .post-title---a
+{
+    color: hsl(215, 100%, 45%);
+}
+
+
+
+
+
+/* ------------------ Table ------------------ */
+.applicator--theme--table .post-content tbody,
+.applicator--theme--table .comment-content tbody
+{
+    border: 2px solid hsl( 0, 0%, 90% );
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.post-content table .section
+{
+    border-top: 2px solid hsl( 0, 0%, 90% );
+}
+
+/* Table Header */
+.applicator--theme--table .post-content th,
+.applicator--theme--table .comment-content th
+{
+    border: 0;
+    
+    text-align: left;
+}
+
+.applicator--theme--table .post-content td,
+.applicator--theme--table .post-content tbody th,
+.applicator--theme--table .comment-content td,
+.applicator--theme--table .comment-content tbody th
+{
+    border: 1px solid hsl( 0, 0%, 90% );
+    
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.applicator--theme--table .post-content td:first-child,
+.applicator--theme--table .comment-content td:first-child
+{
+    border-left: 0;
+}
+
+.applicator--theme--table .post-content tfoot,
+.applicator--theme--table .comment-content tfoot
+{
+    border: 2px solid hsl( 0, 0%, 90% );
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+
+
+
+
+/* ------------------ Calendar ------------------ */
+.applicator--theme--calendar .widget_calendar tbody
+{
+    border: 2px solid lightgray;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.applicator--theme--calendar .widget_calendar th
+{
+    border: 0;
+}
+
+.applicator--theme--calendar .widget_calendar tbody th
+{
+    text-align: left;
+}
+
+.applicator--theme--calendar .widget_calendar td,
+.applicator--theme--calendar .widget_calendar tbody th
+{
+    border: 1px solid lightgray;
+    
+    border-right: 0;
+    border-bottom: 0;
+}
+
+/* Dates */
+.applicator--theme--calendar .widget_calendar tbody td
+{
+    text-align: right;
+    white-space: nowrap;
+}
+
+.applicator--theme--calendar .widget_calendar td:first-child
+{
+    border-left: 0;
+}
+
+/* Navigation */
+.applicator--theme--calendar .widget_calendar tfoot
+{
+    border-top: 2px solid lightgray;
+}
+
+.applicator--theme--calendar .widget_calendar tfoot td
+{
+    border: 0;
+}
+
+.applicator--theme--calendar .widget_calendar #prev
+{
+    text-align: right;
+}
+
+/* Days */
+.applicator--theme--calendar .widget_calendar thead th
+{
+    font-weight: normal;
+}
+
+/* Month Label */
+.applicator--theme--calendar .widget_calendar caption
+{
+    font-weight: bold;
+}
+
+
+
+
+
+/* ------------------ Avatar ------------------ */
+.applicator--theme--avatar .author-avatar---a_l,
+.applicator--theme--avatar .commenter-avatar---a_l
+{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+
+
+/* ------------------ Note ------------------ */
+.applicator--theme--note .note
+{
+    color: hsla(0, 0%, 0%, .5);
+    font-size: .875em;
+}
+
+
+
+
+
+/* ------------------ Categories ------------------ */
+.applicator--theme--categories .apl-categories .post-categories
+{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.applicator--theme--categories .apl-categories .post-categories li
+{
+    display: inline-block;
+    vertical-align: middle;
+    
+    padding: .5rem;
+}
+
+.applicator--theme--categories .apl-categories a
+{    
+    padding: .5em 1em;
+    
+    min-height: 2.25rem;
+    
+    border: 1px solid hsl(215, 100%, 45%);
+}
+
+.applicator--theme--categories .apl-categories .post-categories
+{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* ------------------ Tags ------------------ */
+.applicator--theme--tags .apl-tags .post-tags---grp
+{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.applicator--theme--tags .apl-tags .post-tag
+{
+    position: relative;
+    
+    display: inline-block;
+    vertical-align: middle;
+    
+    padding: .5rem;
+    
+    font-size: .875rem;
+}
+
+.applicator--theme--tags .apl-tags .post-tag::before
+{
+    content: '#';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    
+    margin-left: 1.25rem;
+    
+    color: #808080;
+    
+    line-height: 1;
+    
+    transform: translateY(-50%);
+    
+    pointer-events: none;
+}
+
+.applicator--theme--tags .apl-tags a
+{    
+    padding: .5em 1em;
+    padding-left: 1.5em;
+    
+    min-height: 2.25rem;
+    
+    color: #505050;
+    
+    border: 1px solid hsla( 0, 0%, 0%, .125 );
+    
+    line-height: 1;
+}
+
+.applicator--theme--tags .apl-tags .post-tags---grp
+{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* ------------------ Post Meta ------------------ */
+.applicator--theme--post-meta .post-published-date-stamp-dtstamp .txt,
+.applicator--theme--post-meta .post-modified-date-stamp-dtstamp .txt,
+.applicator--theme--comment-meta .comment-published-date-stamp-dtstamp .txt
+{
+    display: block;
+    
+    text-align: center;
+}
+
+.applicator--theme--post-meta .post-published-date-stamp-dtstamp .day---txt,
+.applicator--theme--post-meta .post-modified-date-stamp-dtstamp .day---txt,
+.applicator--theme--comment-meta .comment-published-date-stamp-dtstamp .day---txt
+{
+    font-weight: bold;
+}
+
+.applicator--theme--post-meta .post-published-date-stamp-dtstamp .month---txt,
+.applicator--theme--post-meta .post-modified-date-stamp-dtstamp .month---txt,
+.applicator--theme--comment-meta .comment-published-date-stamp-dtstamp .month---txt
+{
+    text-transform: uppercase;
+    font-size: .875rem;
+}
+
+.applicator--theme--post-meta .post-published-date-stamp-dtstamp .year---txt,
+.applicator--theme--post-meta .post-modified-date-stamp-dtstamp .year---txt,
+.applicator--theme--comment-meta .comment-published-date-stamp-dtstamp .year---txt
+{
+    font-size: .875rem;
+}
+
+.applicator--theme--post-meta .post-pub-d-stamp-dtstamp---a,
+.applicator--theme--post-meta .post-mod-d-stamp-dtstamp---a,
+.applicator--theme--comment-meta .comment-pub-d-stamp-dtstamp---a
+{
+    color: #505050;
+}
+
+.applicator--theme--post-meta .post-pub-d-stamp-dtstamp---a:hover,
+.applicator--theme--post-meta .post-mod-d-stamp-dtstamp---a:hover,
+.applicator--theme--comment-meta .comment-pub-d-stamp-dtstamp---a:hover
+{
+    text-decoration: none;
+}
+
+.applicator--theme--post-meta .post-pub-d-stamp-dtstamp---a_l,
+.applicator--theme--post-meta .post-mod-d-stamp-dtstamp---a_l,
+.applicator--theme--comment-meta .comment-pub-d-stamp-dtstamp---a_l
+{
+    display: block;
+    
+    padding: .25em;
+    
+    line-height: 1;
+    
+    border: 1px solid hsla( 0, 0%, 0%, .125 );
+}
+
+.applicator--theme--post-meta .post-published,
+.applicator--theme--post-meta .post-modified
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* ------------------ Entry Nav ------------------ */
+.page .entry-nav,
+.main-content---hr .entry-nav
+{
+    display: none;
+}
+
+.applicator--theme--entry-nav .entry-nav---grp
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.applicator--theme--entry-nav .entry-navi
+{
+    flex: 1 50%;
+}
+
+.applicator--theme--entry-nav .next-entry-navi
+{
+    order: 1;
+    
+    text-align: right;
+}
+
+.applicator--theme--entry-nav .entry-navi .line
+{
+    display: block;
+}
+
+.applicator--theme--entry-nav .next-entry-navi .line
+{
+    text-align: right;
+}
+
+.applicator--theme--entry-nav .entry-navi a
+{
+    text-decoration: none;
+}
+
+.applicator--theme--entry-nav .entry-navi a:hover .value---line
+{
+    text-decoration: underline;
+}
+
+.applicator--theme--entry-nav .entry-navi .property---line
+{
+    margin-bottom: .5rem;
+    
+    color: #505050;
+    
+    font-size: .875rem;
+}
+
+
+
+
+
+/* ------------ Name and Avatar ------------ */
+.applicator--theme--name-avatar .post-author---ct_cr,
+.applicator--theme--name-avatar .commenter---ct_cr
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.applicator--theme--name-avatar .author-name,
+.applicator--theme--name-avatar .commenter-name
+{
+    order: 1;
+    margin-right: auto;
+}
+
+.applicator--theme--name-avatar .author-avatar,
+.applicator--theme--name-avatar .commenter-avatar
+{
+    margin-right: .5em;
+}
+
+
+
+
+/* ------------------ Edit Action ------------------ */
+.applicator--theme--edit-action .post-edit-link,
+.applicator--theme--edit-action .comment-edit-link
+{
+    color: hsl(0, 100%, 100%);
+}
+
+.applicator--theme--edit-action .edit-post-axn---a_l,
+.applicator--theme--edit-action .edit-com-axn---a_l
+{
+    padding: .25em 1em;
+    
+    min-width: 3em;
+    min-height: 2.25rem;
+    
+    font-size: .875rem;
+    
+    background-color: hsl(215, 100%, 45%);
+}
+
+
+
+
+
+/* ------------------ Comments Count Action ------------------ */
+.applicator--theme--comments-count-action .comments-count-axn---l
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.applicator--theme--comments-count-action .comments-count---txt
+{
+    order: 1;
+    
+    margin-left: .3em;
+    
+    padding: calc( 1em / 4 ) calc( 1rem / 1.5 );
+    
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    
+    background-color: hsl(215, 100%, 45%);
+    color: hsl(0, 100%, 100%);
+    
+    font-size: .875em;
+    font-weight: bold;
+}
+
+.applicator--theme--comments-count-action .comments-count-axn .txt .comments-label---txt
+{
+    margin-right: .3em;
+}
+
+
+
+
+
+/* ------------------ Rounded Rectangles ------------------ */
+
+/* Edit Actions */
+.applicator--theme--rounded-rectangles.applicator--theme--edit-action .edit-post-axn---a_l,
+.applicator--theme--rounded-rectangles.applicator--theme--edit-action .edit-com-axn---a_l,
+
+/* Sub-Nav */
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > li:first-child > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > li:first-child > a,
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > li:last-child > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > li:last-child > a,
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > .sub-nav--active > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > .sub-nav--active > a,
+
+/* Form Elements */
+.applicator--theme--rounded-rectangles .input-text,
+.applicator--theme--rounded-rectangles input[type="text"],
+.applicator--theme--rounded-rectangles input[type="email"],
+.applicator--theme--rounded-rectangles textarea,
+.applicator--theme--rounded-rectangles input[type="password"],
+.applicator--theme--rounded-rectangles select,
+.applicator--theme--rounded-rectangles .b_l,
+.applicator--theme--rounded-rectangles input[type="submit"],
+.applicator--theme--rounded-rectangles input[type="reset"],
+
+.applicator--theme--rounded-rectangles.applicator--theme--excerpt .show-more-glabel---g_l,
+.applicator--theme--rounded-rectangles.applicator--theme--excerpt .show-more-axn---a_l,
+
+/* Date Time Stamp */
+.applicator--theme--rounded-rectangles.applicator--theme--post-meta .post-pub-d-stamp-dtstamp---a_l,
+.applicator--theme--rounded-rectangles.applicator--theme--comment-meta .comment-pub-d-stamp-dtstamp---a_l,
+
+/* Count */
+.applicator--theme--rounded-rectangles.applicator--theme--comments-count-action .comments-count---txt,
+.applicator--theme--rounded-rectangles.applicator--theme--search-result .search-results .main-content-heading .count---line,
+
+.applicator--theme--rounded-rectangles .main-actions-widgets---widget-grp,
+
+.sub-nav--active > ul,
+
+.applicator--theme--rounded-rectangles .go-ct-navi---a_l,
+
+.applicator--theme--rounded-rectangles .apl-categories a,
+.applicator--theme--rounded-rectangles .apl-tags a
+{
+    border-radius: .125em;
+}
+
+/* Sub-Nav Negations */
+
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > li:first-child > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > li:first-child > a
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > li:last-child > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > li:last-child > a
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > li:only-child > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > li:only-child > a,
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > .sub-nav--inactive:only-child > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > .sub-nav--inactive:only-child > a,
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > .sub-nav--active:first-child > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > .sub-nav--active:first-child > a
+{
+    border-radius: .125em;
+}
+
+.applicator--theme--rounded-rectangles .main-nav .page_item_has_children > ul > .sub-nav--active > a,
+.applicator--theme--rounded-rectangles .main-nav .menu-item-has-children > ul > .sub-nav--active > a
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+
+
+
+
+
+/* ------------------ Comments ------------------ */
+.applicator--theme--comments.applicator--comments .comments-toggle---b .show-hide---txt
+{
+    text-decoration: none;
+}
+
+.applicator--theme--comments.applicator--comments .comments-toggle---b:hover .show-hide---txt
+{
+    text-decoration: underline;
+}
+
+.applicator--theme--comments .comment-meta---ct_cr
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.applicator--theme--comments .comment-published
+{
+    order: 1;
+}
+
+
+
+
+/* ------------------ Private and Protected Post Title ------------------ */
+.applicator--theme--private-post-title .post-title---a_l
+{
+    position: relative;
+}
+
+.applicator--theme--private-post-title .private-post-title---txt
+{
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    
+    width: 100%;
+    
+    color: gray;
+    
+    font-size: .75rem;
+    font-weight: normal;
+    
+    text-transform: uppercase;
+    letter-spacing: .125em;
+    
+    white-space: nowrap;
+    
+    transform: translateY( .5em );
+}
+
+
+
+
+
+/* ------------------ Quote ------------------ */
+.applicator--theme--quote .post-content---ct_cr > blockquote
+{
+    position: relative;
+    z-index: 1;
+    
+    padding-left: 2em;
+    
+    font-size: 1.5rem;
+    font-family: serif;
+}
+
+.applicator--theme--quote blockquote > *
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    padding: 0;
+}
+
+.applicator--theme--quote blockquote > *:first-child
+{
+    margin-top: 0;
+}
+
+.applicator--theme--quote blockquote > *:last-child
+{
+    margin-bottom: 0;
+}
+
+.applicator--theme--quote blockquote > *:only-child
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.applicator--theme--quote blockquote::before
+{
+    content: '“';
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    
+    margin-left: 1rem;
+    
+    color: hsla(0, 0%, 0%, .125);
+    
+    font-size: 6rem;
+    font-family: serif;
+    line-height: 1;
+    
+    transform: translate( -.125em, -.125em );
+}
+
+.applicator--theme--quote blockquote cite
+{
+    display: block;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* ------------------ Search Result ------------------ */
+.applicator--theme--search-result .search-results .main-content-heading .line
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.applicator--theme--search-result .search-results .main-content-heading .count---line
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: calc( .5em / 3 ) calc( .5em / 1.5 );
+    
+    min-width: 2rem;
+    min-height: 2rem;
+    
+    background-color: hsl(215, 100%, 45%);
+    color: hsl(0, 100%, 100%);
+    
+    font-size: 1rem;
+}
+
+.applicator--theme--search-result .search-results .main-content-heading .property---line
+{
+    margin-right: .3em;
+}
+
+.applicator--theme--search-result .search-results .main-content-heading .value---line
+{
+    margin-right: .3em;
+}
+
+
+
+
+
+/* ------------------ Show More Action ------------------ */
+.applicator--theme--excerpt .show-more-action
+{
+    display: inline-block;
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.applicator--theme--excerpt .show-more-glabel---g_l,
+.applicator--theme--excerpt .show-more-axn---a_l
+{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+    border: 1px solid hsl(215, 100%, 45%);
+}
+
+.applicator--theme--excerpt .show-more-glabel---g
+{
+    color: hsl(215, 100%, 45%);
+}
+
+.applicator--theme--excerpt .excerpt-link .ellipsis---sep::after
+{
+    content: '';
+    display: block;
+}
+
+.applicator--theme--excerpt .excerpt-link
+{
+    color: #262626;
+    text-decoration: none;
+}
+
+.applicator--theme--excerpt .excerpt-link:hover
+{
+    text-decoration: none;
+}
+
+
+
+
+
+/* ------------------ Caption ------------------ */
+.applicator--theme--caption .wp-caption-text
+{
+    color: #505050;
+}
+
+
+
+
+
+/* ------------------ Page Nav ------------------ */
+.main-content---hr_cr .page-nav
+{
+    display: none;
+}
+
+.applicator--theme--page-nav .page-nav---ct_cr
+{
+    text-align: center;
+}
+
+.applicator--theme--page-nav .page-nav ul
+{
+    display: inline-block;
+}
+
+.applicator--theme--page-nav .page-nav--no-prev .page-navi--current
+{
+    margin-left: 3rem;
+}
+
+.applicator--theme--page-nav .page-nav--no-next .page-navi--current
+{
+    margin-right: 3rem;
+}
+
+.applicator--theme--page-nav .next-page-navi
+{
+    float: right;
+}
+
+.applicator--theme--page-nav .prev-page-navi
+{
+    float: left;
+}
+
+
+
+
+
+/* ------------------ Post ------------------ */
+
+/* ------------ Juxtapose Post Title and Edit Action ------------ */
+.applicator--theme--post .main-post-title---ct_cr
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.applicator--theme--post .post-title
+{
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.applicator--theme--post .edit-post-action
+{
+    display: inline;
+}
+
+.applicator--theme--post .post-title---h
+{
+    display: inline;
+    vertical-align: middle;
+}
+
+
+/* ------------ Juxtapose Post Published and Modified and Post Author ------------ */
+.applicator--theme--post .post-published-modified,
+.applicator--theme--post .published-post-author,
+.applicator--theme--post .apl-post-categories
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.applicator--theme--post .comment-published,
+.applicator--theme--post .published-comment-commenter
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* ------------ Post Meta ------------ */
+.applicator--theme--post .post-published-date-and-time-stamp
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.applicator--theme--post .author-name,
+.applicator--theme--post .author-avatar
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+
+
+/* ------------------ Post Format - Status ------------------ */
+.applicator--theme--post-format--status .format-status .post-content---ct_cr > *,
+.applicator--theme--post-format--status .format-status .post-excerpt---ct_cr > *
+{
+    font-size: 2em;
+}
+
+.applicator--theme--post-format--status .format-status .post-content---ct_cr > *:first-child
+{
+    margin-top: -.25em; 
+}
+
+.applicator--theme--post-format--status .format-status .post---cr
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.applicator--theme--post-format--status .format-status .post---ct
+{
+    flex: 1;
+}
+
+.applicator--theme--post-format--status .format-status .post---fr
+{
+    flex: 1 100%;
+}
+
+.applicator--theme--post-format--status .page-template--multisite-directory .format-status .post---cr
+{
+    justify-content: center;
+}
+
+
+
+
+
+/* ------------ Comment Meta ------------ */
+.comment-published-date-and-time-stamp
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.commenter-name,
+.commenter-avatar
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+
+
+/* ------------------ Layout ------------------ */
+
+.applicator--theme--layout .main-menu-func .main-hr-aside---cr
+{
+    position: relative;
+}
+
+
+
+
+
+/* ------------------ Main Header ------------------ */
+.applicator--theme--main-header .main-info
+{
+    max-width: 100%;
+    min-height: 3.5rem;
+}
+
+.applicator--theme--main-header.applicator--main-menu .main-hr-aside---hr_cr,
+.applicator--theme--main-header .main-actions-aside---ct_cr
+{
+    height: 3.5rem;
+}
+
+.applicator--theme--main-header .main-info---cr,
+.applicator--theme--main-header.applicator--main-menu .main-menu-toggle,
+.applicator--theme--main-header.applicator--main-search .main-search-func,
+.applicator--theme--main-header.applicator--main-actions-widgets .main-actions-widgets
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.applicator--theme--main-header.applicator--main-search--active .main-search-func
+{
+    z-index: 100;
+}
+
+.applicator--theme--main-header.applicator--main-search--active .main-info
+{
+    position: relative;
+    z-index: 100;
+}
+
+.applicator--theme--main-header.applicator--main-actions-widgets .main-actions-widgets
+{
+    position: absolute;
+}
+
+.applicator--theme--main-header.applicator--main-menu .main-hr-aside---hr,
+.applicator--theme--main-header .main-actions-aside---ct
+{
+    position: absolute;
+}
+
+.applicator--theme--main-header .main-actions-aside---ct
+{
+    right: 0;
+}
+
+.applicator--theme--main-header.applicator--main-search--active .main-actions-aside---ct
+{
+    width: 100%;
+}
+
+.applicator--theme--main-header.applicator--main-search .main-search-func
+{   
+    min-height: 3rem;
+}
+
+
+
+
+
+/* ------------------ Mod: Jetpack / Grunion Contact Form ------------------ */
+.contact-form.commentsblock
+{
+    font-size: 1rem;
+}
+
+.contact-form.commentsblock textarea
+{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    
+    width: 100%;
+    height: 4.5em;
+}
+
+.contact-form.commentsblock input[type=email],
+.contact-form.commentsblock input[type=text],
+.contact-form.commentsblock input[type=url]
+{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    
+    width: 100%;
+    max-width: none;
+}
+
+.contact-form.commentsblock > div
+{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.contact-form.commentsblock label
+{
+    display: inline-block;
+    
+    margin-bottom: auto;
+    
+    font-weight: normal;
+}
+
+.contact-form.commentsblock label span
+{
+    margin-left: .5em;
+    
+    color: gray;
+    
+    font-size: .75em;
+    font-weight: normal;
+    
+    text-transform: capitalize;
+}
+
+.contact-form.commentsblock .contact-submit
+{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+div[id^="contact-form-"] > h3
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+div[id^="contact-form-"] > h3 > a
+{
+    font-weight: normal;
+    
+    text-transform: capitalize;
+}
+
+div[id^="contact-form-"] > .contact-form-submission
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* ------------------ Mod: Table Interactivity ------------------ */
+.post-content tr,
+.post-content td,
+.post-content th
+{
+    transition: background-color .2s ease-in-out;
+}
+
+.post-content tr:hover
+{
+    background-color: hsla(0, 0%, 0%, .0625);
+}
+
+.post-content td:hover,
+.post-content th:hover
+{
+    background-color: hsla(0, 0%, 0%, .0625);
+}
+
+.post-content .cell--clicked,
+.post-content .cell--clicked:hover
+{
+    background-color: hsl(215, 100%, 45%);
+    color: white;
+}
+
+
+
+
+
+/* ------------------ GPU Hack ------------------ */
+.main-hr-aside---ct,
+.main-actions-widgets---widget-grp
+{
+    transform: translateZ(0);
+}
+
+
+
+
+
+/* ------------------ Viewport Width: 1024 ------------------ */
+
+@media only screen and ( min-width: 64em )
+{
+
+    /* ------------ Layout ------------ */
+    .applicator--theme--layout .main-content-aside--enabled .main-content---ct_cr
+    {
+        display: flex;
+    }
+
+    .applicator--theme--layout .main-content-aside--enabled .primary-content 
+    {
+        flex: 1 70%;
+        width: 70%;
+    }
+
+    .applicator--theme--layout .main-content-aside--enabled .secondary-content 
+    {
+        flex: 1 30%;
+        width: 30%;
+    }
+    
+    /* Main Content */
+    .applicator--theme--layout .main-post-title---cr,
+    .applicator--theme--layout .post-meta---cr,
+    .applicator--theme--layout .post-header-aside .comments-axns-snip---cr,
+    .applicator--theme--layout .post-content---ct_cr,
+    .applicator--theme--layout .post-nav---cr,
+    .applicator--theme--layout .comment-md---cr,
+    .applicator--theme--layout .breadcrumbs-nav---cr,
+    .applicator--theme--layout .post-excerpt---cr,
+    .applicator--theme--layout .show-more-action,
+    .applicator--theme--layout .main-content-heading,
+    .applicator--theme--layout .entry-nav---cr,
+    .applicator--theme--layout .type-attachment .post-nav---cr,
+    .applicator--theme--layout.applicator--theme--post-format--status .format-status .post---cr,
+    .applicator--theme--layout .copyright,
+
+    /* Asides */
+    .applicator--theme--layout .main-content-header-aside .widget-content---ct_cr,
+    .applicator--theme--layout .main-banner-aside .widget-content---ct_cr,
+    .applicator--theme--layout .main-footer-aside .widget-content---ct_cr,
+
+    /* Secondary Content enabled */
+    .applicator--theme--layout.main-content-aside--enabled .main-content---ct_cr
+    {
+        margin-left: auto;
+        margin-right: auto;
+
+        max-width: 100vw;
+    }
+
+    /* Main Header */
+    .applicator--theme--layout .main-info---cr,
+    .applicator--theme--layout .main-nav---cr,
+    .applicator--theme--layout .main-actions-aside---cr,
+    .applicator--theme--layout .main-menu-func .main-hr-aside---cr
+    {
+        margin-left: auto;
+        margin-right: auto;
+
+        max-width: 100vw;
+    }
+    
+    
+    
+    
+    
+    /* ------------ Gallery ------------ */
+    .gallery .gallery-item
+    {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .gallery-columns-1 .gallery-item
+    {
+        display: block;
+    }
+    
+    .gallery-columns-2 .gallery-item
+    {
+        width: calc( 100% / 2 );
+        width: 50%;
+    }
+    
+    .gallery-columns-3 .gallery-item
+    {
+        width: calc( 100% / 3 );
+        width: 33.333333333333333%;
+    }
+    
+    .gallery-columns-4 .gallery-item
+    {
+        width: calc( 100% / 4 );
+        width: 25%;
+    }
+    
+    .gallery-columns-5 .gallery-item
+    {
+        width: calc( 100% / 5 );
+        width: 20%;
+    }
+    
+    .gallery-columns-6 .gallery-item
+    {
+        width: calc( 100% / 6 );
+        width: 16.666666666666667%;
+    }
+    
+    .gallery-columns-7 .gallery-item
+    {
+        width: calc( 100% / 7 );
+        width: 14.285714285714286%;
+    }
+    
+    .gallery-columns-8 .gallery-item
+    {
+        width: calc( 100% / 8 );
+        width: 12.5%;
+    }
+    
+    .gallery-columns-9 .gallery-item
+    {
+        width: calc( 100% / 9 );
+        width: 11.11%;
+    }
+    
+    .main-actions-widgets-func .gallery .gallery-item
+    {
+        display: inline-block;
+        vertical-align: top;
+        
+        margin: 0;
+        width: 100%;
+    }
+    
+    /* Testing Object Fit */
+    .gallery-columns-3.gallery-size-full .gallery-icon
+    {
+        height: 240px;
+        overflow: hidden;
+    }
+    
+    .gallery-columns-3.gallery-size-full img
+    {
+        height: 240px;
+        object-fit: cover;
+    }
+    
+    
+    
+    
+    
+    /* ------------ Layout - Multisite Directory ------------ */
+    .applicator--theme--layout .main-content-aside--enabled.page-template--multisite-directory .main-content---ct_cr
+    {
+        display: block;
+    }
+
+    .applicator--theme--layout .main-content-aside--enabled.page-template--multisite-directory .primary-content 
+    {
+        flex: none;
+    }
+
+    .applicator--theme--layout .main-content-aside--enabled.page-template--multisite-directory .secondary-content 
+    {
+        flex: none;
+    }
+
+}
